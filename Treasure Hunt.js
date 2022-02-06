@@ -7888,10 +7888,10 @@ p.nominalBounds = new cjs.Rectangle(21,-1.9,175.3,245.70000000000002);
 		////הוספת סאונדים
 		function AddAudio() {
 			//לטעון את הסאונד - נתיב + שם
-			createjs.Sound.registerSound("/sounds/MusicBackground.mp3", "background");
-			createjs.Sound.registerSound("/sounds/WrongAnswer.mp3", "Wrong");
-			createjs.Sound.registerSound("/sounds/CorrectAnswer.mp3", "Correct");
-			createjs.Sound.registerSound("/sounds/RevelationTreasure.mp3", "Treasure");
+			createjs.Sound.registerSound("sounds/MusicBackground.mp3", "background");
+			createjs.Sound.registerSound("sounds/WrongAnswer.mp3", "Wrong");
+			createjs.Sound.registerSound("sounds/CorrectAnswer.mp3", "Correct");
+			createjs.Sound.registerSound("sounds/RevelationTreasure.mp3", "Treasure");
 			}
 		
 		//פונקציית יצירת מוזיקה רקע כללית
